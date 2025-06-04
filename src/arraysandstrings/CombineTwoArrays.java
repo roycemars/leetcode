@@ -1,4 +1,4 @@
-package twopointers;
+package arraysandstrings;
 
 import static utils.Utils.*;
 
