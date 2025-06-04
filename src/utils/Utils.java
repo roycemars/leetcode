@@ -1,3 +1,5 @@
+package utils;
+
 public class Utils {
     public static void print(int[] r) {
         System.out.printf("r = {");

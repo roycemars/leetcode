@@ -1,11 +1,15 @@
-public class TwoPointers {
+package twopointers;
+
+import static utils.Utils.*;
+
+public class CombineTwoArrays {
 
     public static void main(String[] args) {
         int[] a = {3, 5}, b = {1, 2, 4};
 
         int[] r = combine(a, b);
-        
-        Utils.print(r);
+
+        print(r);
     }
 
     public static int[] combine(int[] a, int[] b) {
