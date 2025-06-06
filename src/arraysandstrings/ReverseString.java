@@ -9,14 +9,13 @@ public class ReverseString {
         System.out.printf("\"%s\" reversed is \"%s\"\n", s, r);
     }
 
-    private static String reverse(String s) {
+    public static String reverse(String s) {
         char[] a = s.toCharArray();
         int i = 0, j = a.length - 1;
 
         while (i < j) {
             char c = a[i];
 
-//            System.out.printf("a[%d] = %c; c=%c; a[%d]=%c\n", i, a[i], c, j, a[j]);
             a[i] = a[j];
             a[j] = c;
             i++;
