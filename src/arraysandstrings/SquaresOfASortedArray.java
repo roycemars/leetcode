@@ -21,7 +21,7 @@ public class SquaresOfASortedArray {
 
         int[] output = sortedSquares(input);
 
-        printTestResult(Arrays.equals(output, expectedOutput), output);
+        printTestResult("Test", Arrays.equals(output, expectedOutput), output);
     }
 
     private static int[] sortedSquares(int[] a) {
