@@ -1,10 +1,10 @@
-package main.hashing;
+package hashing;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import static main.utils.Utils.printTestResult;
+import static utils.Utils.printTestResult;
 
 /**
  * Given an array of integers nums and an integer target, return indices of two numbers such that they add up to target. You cannot use the same index twice.
@@ -39,7 +39,7 @@ public class TwoSum {
         printTestResult("Negative test", Arrays.equals(output, expectedOutput), output);
     }
 
-    private static int[] twoSum(int[] a, int t) {
+    public static int[] twoSum(int[] a, int t) {
         Map<Integer, Integer> map = new HashMap<>();
 
         for (int i = 0; i < a.length; i++) {

@@ -1,7 +1,7 @@
-package main.arraysandstrings;
+package arraysandstrings;
 
 import java.util.Arrays;
-import static main.utils.Utils.printTestResult;
+import static utils.Utils.printTestResult;
 
 /**
  * Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.

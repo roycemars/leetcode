@@ -1,4 +1,4 @@
-package main.utils;
+package utils;
 
 public class Utils {
     public static void print(int[] r) {

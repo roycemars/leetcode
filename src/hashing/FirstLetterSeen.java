@@ -1,4 +1,4 @@
-package main.hashing;
+package hashing;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -11,10 +11,6 @@ import java.util.Set;
  */
 
 public class FirstLetterSeen {
-    public static void main(String[] args) {
-
-    }
-
     public static Character findFirstLetterSeen(String s) {
         Set<Character> seenSet = new HashSet<>();
         for (char c : s.toCharArray()) {
