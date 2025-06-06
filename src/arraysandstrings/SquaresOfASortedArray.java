@@ -1,13 +1,12 @@
 package arraysandstrings;
 
-/**
- * Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
- * Example:
- * Input: nums = [-7,-3,2,3,11]
- * Output: [4,9,9,49,121]
- * Follow up: Squaring each element and sorting the new array is very trivial, could you find an O(n) solution using a different approach?
- */
 public class SquaresOfASortedArray {
+
+    /**
+     * Given an integer array a sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
+     * @param a input array, sorted in non-decreasing order, example: [-7,-3,2,3,11]
+     * @return array of squares, sorted in non-decreasing order, example: [4,9,9,49,121]
+     */
     public static int[] sortedSquares(int[] a) {
         int n = a.length;
         int[] r = new int[n];

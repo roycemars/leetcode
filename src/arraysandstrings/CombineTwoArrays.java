@@ -1,14 +1,13 @@
 package arraysandstrings;
 
-/**
- * Given two sorted integer arrays a and b, return a new array that combines both of them and is also sorted
- * Example:
- * Input: a = [3, 5], b = [1, 2, 4]
- * Output: [1, 2, 3, 4, 5]
- */
-
 public class CombineTwoArrays {
 
+    /**
+     * Given two sorted integer arrays a and b, return a new array that combines both of them and is also sorted.
+     * @param a first array, example: [3, 5]
+     * @param b second array, example: [1, 2, 4]
+     * @return combined sorted array, example: [1, 2, 3, 4, 5]
+     */
     public static int[] combine(int[] a, int[] b) {
         int[] r = new int[a.length + b.length];
 

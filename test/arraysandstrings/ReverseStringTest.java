@@ -9,8 +9,6 @@ class ReverseStringTest {
 
     @Test
     void reverseTest() {
-        assertEquals("weivretni gnidoC",
-                reverse("Coding interview")
-        );
+        assertEquals("weivretni gnidoC", reverse("Coding interview"));
     }
 }

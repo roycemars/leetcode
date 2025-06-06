@@ -1,6 +1,12 @@
 package arraysandstrings;
 
 public class ReverseString {
+
+    /**
+     * Write a function that reverses a string. The input string is given as an array of characters s.
+     * @param s input string
+     * @return reversed string
+     */
     public static String reverse(String s) {
         char[] a = s.toCharArray();
         int i = 0, j = a.length - 1;

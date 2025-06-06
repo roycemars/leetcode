@@ -3,14 +3,14 @@ package hashing;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Given an array of integers nums and an integer target, return indices of two numbers such that they add up to target. You cannot use the same index twice.
- * Example:
- * Input: nums = [5, 2, 7, 10, 3, 9], target = 8
- * Output: [0, 4]
- */
-
 public class TwoSum {
+
+    /**
+     * Given an array of integers nums and an integer target, return indices of two numbers such that they add up to target. You cannot use the same index twice.
+     * @param a input array, example: [5, 2, 7, 10, 3, 9],
+     * @param t target, example: 8
+     * @return array of indices of two numbers such that they add up to target, example: [0, 4]
+     */
     public static int[] twoSum(int[] a, int t) {
         Map<Integer, Integer> map = new HashMap<>();
 
