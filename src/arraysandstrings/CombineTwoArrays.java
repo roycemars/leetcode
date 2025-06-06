@@ -1,16 +1,13 @@
 package arraysandstrings;
 
-import static utils.Utils.print;
+/**
+ * Given two sorted integer arrays a and b, return a new array that combines both of them and is also sorted
+ * Example:
+ * Input: a = [3, 5], b = [1, 2, 4]
+ * Output: [1, 2, 3, 4, 5]
+ */
 
 public class CombineTwoArrays {
-
-    public static void main(String[] args) {
-        int[] a = {3, 5}, b = {1, 2, 4};
-
-        int[] r = combine(a, b);
-
-        print(r);
-    }
 
     public static int[] combine(int[] a, int[] b) {
         int[] r = new int[a.length + b.length];
@@ -18,7 +15,6 @@ public class CombineTwoArrays {
         int i = 0, j = 0, k = 0;
 
         while (i < a.length && j < b.length) {
-//            System.out.printf("a[%d]=%d, j[%d]=%d", i, a[i], j, b[j]);
             if (a[i] < b[j]) {
                 r[k] = a[i];
                 i++;
@@ -26,7 +22,6 @@ public class CombineTwoArrays {
                 r[k] = b[j];
                 j++;
             }
-//            System.out.printf(", k[%d]=%d\n", k, r[k]);
             k++;
         }
 
