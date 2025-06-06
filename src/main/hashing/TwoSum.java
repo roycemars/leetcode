@@ -1,10 +1,10 @@
-package hashing;
+package main.hashing;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import static utils.Utils.printTestResult;
+import static main.utils.Utils.printTestResult;
 
 /**
  * Given an array of integers nums and an integer target, return indices of two numbers such that they add up to target. You cannot use the same index twice.

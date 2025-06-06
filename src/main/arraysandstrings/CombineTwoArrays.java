@@ -1,6 +1,6 @@
-package arraysandstrings;
+package main.arraysandstrings;
 
-import static utils.Utils.*;
+import static main.utils.Utils.print;
 
 public class CombineTwoArrays {
 
