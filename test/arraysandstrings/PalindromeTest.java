@@ -1,8 +1,8 @@
-package linkedlists;
+package arraysandstrings;
 
 import org.junit.jupiter.api.Test;
 
-import static linkedlists.Palindrome.checkIfPalindrome;
+import static arraysandstrings.Palindrome.checkIfPalindrome;
 import static org.junit.jupiter.api.Assertions.*;
 
 class PalindromeTest {

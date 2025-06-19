@@ -1,4 +1,4 @@
-package linkedlists;
+package arraysandstrings;
 
 public class Palindrome {
     public static boolean checkIfPalindrome(String s) {
