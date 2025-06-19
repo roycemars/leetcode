@@ -1,4 +1,4 @@
-package linkedlists;
+package arraysandstrings;
 
 public class TwoSumSorted {
     public static boolean checkForTarget(int[] nums, int target) {

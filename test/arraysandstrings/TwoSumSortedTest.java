@@ -1,8 +1,8 @@
-package linkedlists;
+package arraysandstrings;
 
 import org.junit.jupiter.api.Test;
 
-import static linkedlists.TwoSumSorted.checkForTarget;
+import static arraysandstrings.TwoSumSorted.checkForTarget;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TwoSumSortedTest {
