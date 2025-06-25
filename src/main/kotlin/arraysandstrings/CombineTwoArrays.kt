@@ -1,14 +1,14 @@
 package arraysandstrings
 
-/**
- * Given two sorted integer arrays a and b, return a new array that combines both of them and is also sorted.
- * @param a first array, example: [3, 5]
- * @param b second array, example: [1, 2, 4]
- * @return combined sorted array, example: [1, 2, 3, 4, 5]
- */
-
 class CombineTwoArrays {
     companion object {
+
+        /**
+         * Given two sorted integer arrays a and b, return a new array that combines both of them and is also sorted.
+         * @param a first array, example: [3, 5]
+         * @param b second array, example: [1, 2, 4]
+         * @return combined sorted array, example: [1, 2, 3, 4, 5]
+         */
         fun combine(a: IntArray, b: IntArray): IntArray {
             val r = IntArray(a.count() + b.count())
 
