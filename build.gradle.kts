@@ -22,6 +22,7 @@ repositories {
 dependencies {
     testImplementation(kotlin("test")) // for kotlin.test
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.0") // for JUnit 5
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
 }
 
 tasks.test {
