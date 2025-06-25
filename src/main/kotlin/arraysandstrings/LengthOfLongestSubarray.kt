@@ -9,6 +9,9 @@ class LengthOfLongestSubarray {
          * Problem: Given an array of positive integers nums and an integer k,
          * find the length of the longest subarray whose sum is less than or equal to k.
          * Approach: Sliding window
+         *
+         * @param a array
+         * @param k target sum
          */
         fun findLength(a: IntArray, k: Int): Int {
             var left = 0

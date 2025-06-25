@@ -4,7 +4,9 @@ class IsSubsequence {
     companion object {
 
         /**
-         * Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
+         * Problem: Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
+         * Approach: Two pointers
+         *
          * @param s subsequence, example: "ace"
          * @param t string, example: "abcde"
          * @return true if it is subsequence (like "ace"), false if it is not (like "acf")
