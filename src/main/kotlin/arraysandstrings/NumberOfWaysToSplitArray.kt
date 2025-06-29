@@ -9,17 +9,17 @@ class NumberOfWaysToSplitArray {
      * Approach: prefix sum
      */
     fun splitArray(nums: IntArray): Int {
-        val prefix = IntArray(nums.count())
+        var ans = 0
+        var leftSection = 0
+        var total = 0
 
-        prefix[0] = nums[0]
-        for (i in 1..nums.count() - 1) {
-            prefix[i] = prefix[i - 1] + nums[i]
+        for (n in nums) {
+            total += n
         }
 
-        var ans = 0
         for (i in 0 .. nums.count() - 1) {
-            val leftSection = prefix[i]
-            val rightSection = prefix[nums.count() - 1] - prefix[i]
+            leftSection += nums[i]
+            val rightSection = total - leftSection
             if (leftSection >= rightSection) {
                 ans++
             }
