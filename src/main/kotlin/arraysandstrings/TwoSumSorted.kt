@@ -2,20 +2,20 @@ package arraysandstrings
 
 class TwoSumSorted {
     fun checkForTarget(a: IntArray, t: Int): Boolean {
-        var i = 0
-        var j = a.count() - 1
+        var l = 0
+        var r = a.size - 1
 
-        while (i < j) {
-            val s = a[i] + a[j]
+        while (l < r) {
+            val s = a[l] + a[r]
 
             if (s == t) {
                 return true
             }
 
             if (s > t) {
-                j--
+                r--
             } else {
-                i++
+                l++
             }
         }
 
