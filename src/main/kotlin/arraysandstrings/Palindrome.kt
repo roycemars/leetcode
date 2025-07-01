@@ -3,15 +3,15 @@ package arraysandstrings
 class Palindrome {
     companion object {
         fun checkIfPalindrome(s: String): Boolean {
-            var left = 0
-            var right = s.length - 1
+            var l = 0
+            var r = s.length - 1
 
-            while (left < right) {
-                if (s[left] != s[right]) {
+            while (l < r) {
+                if (s[l] != s[r]) {
                     return false
                 }
-                left++
-                right--
+                l++
+                r--
             }
 
             return true
