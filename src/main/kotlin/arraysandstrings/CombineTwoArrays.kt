@@ -19,7 +19,7 @@ class CombineTwoArrays {
             var j = 0
             var k = 0
 
-            while (i < a.count() && j < b.count()) {
+            while (i < a.size && j < b.size) {
                 if(a[i] < b[j]) {
                     r[k] = a[i]
                     i++
@@ -30,13 +30,13 @@ class CombineTwoArrays {
                 k++
             }
 
-            while (i < a.count()) {
+            while (i < a.size) {
                 r[k] = a[i]
                 i++
                 k++
             }
 
-            while (j < b.count()) {
+            while (j < b.size) {
                 r[k] = b[j]
                 j++
                 k++
