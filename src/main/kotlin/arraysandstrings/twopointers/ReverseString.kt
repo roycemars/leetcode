@@ -1,4 +1,4 @@
-package arraysandstrings.tw
+package arraysandstrings.twopointers
 
 class ReverseString {
     /**

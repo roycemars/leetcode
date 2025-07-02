@@ -1,6 +1,5 @@
 package arraysandstrings.twopointers
 
-import arraysandstrings.tw.ReverseString
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
