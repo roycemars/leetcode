@@ -14,22 +14,22 @@ class LengthOfLongestSubarray {
          * @param k target sum
          */
         fun findLength(a: IntArray, k: Int): Int {
-            var left = 0
+            var l = 0
             var c = 0
-            var r = 0
+            var res = 0
 
-            for (right in 0 .. a.size - 1) {
-                c += a[right]
+            for (r in 0 .. a.size - 1) {
+                c += a[r]
 
                 while (c > k) {
-                    c -= a[left]
-                    left++
+                    c -= a[l]
+                    l++
                 }
 
-                r = max(r, right - left - 1)
+                res = max(res, r - l - 1)
             }
 
-            return r
+            return res
         }
     }
 }
