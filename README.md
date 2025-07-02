@@ -1,4 +1,4 @@
-Few selected Leetcode exercises in Kotlin.
+Few select Leetcode exercises in Kotlin.
 
 Core patterns:
 1. Two pointers
