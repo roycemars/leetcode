@@ -1,4 +1,4 @@
-package arraysandstrings
+package arraysandstrings.slidingwindow
 
 import kotlin.math.max
 

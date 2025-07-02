@@ -1,4 +1,4 @@
-package arraysandstrings
+package arraysandstrings.prefixsum
 
 class NumberOfWaysToSplitArray {
     /**
@@ -6,7 +6,7 @@ class NumberOfWaysToSplitArray {
      * the first section has a sum greater than or equal to the sum of the second section.
      * The second section should have at least one number.
      *
-     * Approach: prefix sum
+     * Approach: Prefix sum
      */
     fun splitArray(nums: IntArray): Int {
         var ans = 0

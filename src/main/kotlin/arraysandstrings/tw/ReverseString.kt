@@ -1,6 +1,9 @@
-package arraysandstrings
+package arraysandstrings.tw
 
 class ReverseString {
+    /**
+     * Approach: Two pointers
+     */
     fun reverse(s: String): String {
         val a = s.toCharArray()
         var i = 0

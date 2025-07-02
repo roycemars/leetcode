@@ -1,6 +1,10 @@
-package arraysandstrings
+package arraysandstrings.prefixsum
 
 class PrefixSum {
+
+    /**
+     * Approach: Prefix sum
+     */
     fun answerQueries(nums: Array<Int>, queries:Array<Array<Int>>, limit: Int): BooleanArray {
         val prefix = IntArray(nums.count())
         prefix[0] = nums[0]

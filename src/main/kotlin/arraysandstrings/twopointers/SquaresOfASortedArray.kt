@@ -1,4 +1,4 @@
-package arraysandstrings
+package arraysandstrings.twopointers
 
 class SquaresOfASortedArray {
     /**

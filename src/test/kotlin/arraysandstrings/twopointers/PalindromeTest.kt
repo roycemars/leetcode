@@ -1,4 +1,4 @@
-package arraysandstrings
+package arraysandstrings.twopointers
 
 import kotlin.test.Test
 import kotlin.test.assertFalse

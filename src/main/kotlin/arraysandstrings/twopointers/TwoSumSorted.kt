@@ -1,6 +1,10 @@
-package arraysandstrings
+package arraysandstrings.twopointers
 
 class TwoSumSorted {
+
+    /**
+     * Approach: Two pointers
+     */
     fun checkForTarget(a: IntArray, t: Int): Boolean {
         var l = 0
         var r = a.size - 1

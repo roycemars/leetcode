@@ -1,4 +1,4 @@
-package arraysandstrings
+package arraysandstrings.twopointers
 
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
